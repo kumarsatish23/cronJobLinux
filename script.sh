@@ -10,7 +10,7 @@ START_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 echo "Script started at: $START_TIME" >> "$LOG_FILE"
 
 # API endpoint
-API_URL='https://apistaging.jobsintheus.com/api/ats/sitemap?token=YjNCMGFXWnBkR3B2WW5CdmMzUnBibWRyWlhrPQ'
+API_URL='https://localhost:8080/'
 
 # Fetch and format the sitemap in a single pipeline
 CURL_STATUS=$(curl --location --write-out "%{http_code} %{url_effective}\\n" --output /opt/sitemap.xml "$API_URL" | awk '{print $1}')
