@@ -1,6 +1,18 @@
+### Tired of manually updating your data ?  Automate the process with this easy-to-follow guide!
+
+**About the Author:**
+
+ Hi! I'm [satish Kumar Rai](https://github.com/kumarsatish23), a passionate Developer. I'm excited to share this automation solution with you.
+
 # Automating Sitemap Generation with Cron Job
 
 This guide outlines the steps to create a cron job in a Linux environment that runs a service to generate a sitemap daily at 12 AM. The process involves creating a timer, service, and a Bash script to fetch and format the sitemap. Logs are generated for tracking the script's execution.
+
+### Prerequisites:
+
+- A Linux server with root access
+- A sitemap generation tool (e.g., `wget`, `curl`)
+- Basic understanding of systemd and Bash scripting
 #
 ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=for-the-badge)
 ![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=for-the-badge)
