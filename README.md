@@ -1,6 +1,12 @@
 # Automating Sitemap Generation with Cron Job
 
 This guide outlines the steps to create a cron job in a Linux environment that runs a service to generate a sitemap daily at 12 AM. The process involves creating a timer, service, and a Bash script to fetch and format the sitemap. Logs are generated for tracking the script's execution.
+#
+![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=for-the-badge)
+![Linux Badge](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000&style=for-the-badge)
+![LinuxServer Badge](https://img.shields.io/badge/LinuxServer-DA3B8A?logo=linuxserver&logoColor=fff&style=for-the-badge)
+![Amazon EC2 Badge](https://img.shields.io/badge/Amazon%20EC2-F90?logo=amazonec2&logoColor=fff&style=for-the-badge)
+![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=fff&style=for-the-badge)
 
 ## Step 1: Navigate to the systemd system folder
 ```bash
