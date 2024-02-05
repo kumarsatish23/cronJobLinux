@@ -1,0 +1,11 @@
+[Unit]
+Description=Run a service called sitemapsync.service every hour
+
+[Timer]
+Unit=sitemapsync.service
+OnCalendar=*-*-* *:*:00
+
+
+[Install]
+WantedBy=timers.target
+

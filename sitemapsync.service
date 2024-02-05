@@ -1,0 +1,12 @@
+[Unit]
+Description=Run a script called buildSync only once
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/script.sh
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/opt
+
+[Install]
+WantedBy=multi-user.target
