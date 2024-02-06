@@ -2,7 +2,7 @@
 
 **About the Author:**
 
- Hi! I'm [satish Kumar Rai](https://github.com/kumarsatish23), a passionate Developer. I'm excited to share this automation solution with you.
+ Hi! I'm [Satish Kumar Rai](https://github.com/kumarsatish23), a passionate Developer.With collaboration of [Rahul Sannala](https://github.com/RahulSannala) excited to share this automation solution with you.
 
 # Automating Sitemap Generation with Cron Job
 
