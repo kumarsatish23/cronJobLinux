@@ -122,7 +122,7 @@ START_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 log_message "Script started at: $START_TIME"
 
 # API endpoint
-API_URL='https://apistaging.jobsintheus.com/api/ats/sitemap?token=YjNCMGFXWnBkR3B2WW5CdmMzUnBibWRyWlhrPQ'
+API_URL='https://localhost:8080/'
 
 # Fetch and format the sitemap
 fetch_and_format_sitemap
